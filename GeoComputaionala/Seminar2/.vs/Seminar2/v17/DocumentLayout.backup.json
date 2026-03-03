@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\tripg\\Documents\\Projects\\Coding\\Uni\\Uni\\GeoComputaionala\\Seminar2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{77CA3BD2-3C9B-498E-871C-B53E0D1F966D}|Seminar2\\Seminar2.csproj|c:\\users\\tripg\\documents\\projects\\coding\\uni\\uni\\geocomputaionala\\seminar2\\seminar2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77CA3BD2-3C9B-498E-871C-B53E0D1F966D}|Seminar2\\Seminar2.csproj|solutionrelative:seminar2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2F026DDB-177C-4046-9AA3-9C76CBFEF9A7}|Seminar2\\Seminar2.csproj|c:\\users\\tripg\\documents\\projects\\coding\\uni\\uni\\geocomputaionala\\seminar2\\seminar2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F026DDB-177C-4046-9AA3-9C76CBFEF9A7}|Seminar2\\Seminar2.csproj|solutionrelative:seminar2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77CA3BD2-3C9B-498E-871C-B53E0D1F966D}|Seminar2\\Seminar2.csproj|c:\\users\\tripg\\documents\\projects\\coding\\uni\\uni\\geocomputaionala\\seminar2\\seminar2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{77CA3BD2-3C9B-498E-871C-B53E0D1F966D}|Seminar2\\Seminar2.csproj|solutionrelative:seminar2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{2F026DDB-177C-4046-9AA3-9C76CBFEF9A7}|Seminar2\\Seminar2.csproj|c:\\users\\tripg\\documents\\projects\\coding\\uni\\uni\\geocomputaionala\\seminar2\\seminar2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2F026DDB-177C-4046-9AA3-9C76CBFEF9A7}|Seminar2\\Seminar2.csproj|solutionrelative:seminar2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,12 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -32,9 +28,9 @@
               "RelativeDocumentMoniker": "Seminar2\\Form1.cs",
               "ToolTip": "C:\\Users\\tripg\\Documents\\Projects\\Coding\\Uni\\Uni\\GeoComputaionala\\Seminar2\\Seminar2\\Form1.cs*",
               "RelativeToolTip": "Seminar2\\Form1.cs*",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAmwBkAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-02T08:23:25.811Z",
+              "WhenOpened": "2026-03-02T10:44:48.507Z",
               "EditorCaption": ""
             },
             {
@@ -46,8 +42,12 @@
               "ToolTip": "C:\\Users\\tripg\\Documents\\Projects\\Coding\\Uni\\Uni\\GeoComputaionala\\Seminar2\\Seminar2\\Form1.cs [Design]*",
               "RelativeToolTip": "Seminar2\\Form1.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-02T07:48:06.903Z",
+              "WhenOpened": "2026-03-02T10:40:09.052Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
