@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Seminaru2/1.0.0": {
+        "runtime": {
+          "Seminaru2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Seminaru2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

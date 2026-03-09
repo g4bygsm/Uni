@@ -1,0 +1,17 @@
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\GeoComputaionala\Seminar2\Seminaru2\Seminaru2\obj\Debug\net9.0-windows\Seminaru2.Form1.resources
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\GeoComputaionala\Seminar2\Seminaru2\Seminaru2\obj\Debug\net9.0-windows\Seminaru2.csproj.GenerateResource.cache
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\GeoComputaionala\Seminar2\Seminaru2\Seminaru2\obj\Debug\net9.0-windows\Seminaru2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\GeoComputaionala\Seminar2\Seminaru2\Seminaru2\obj\Debug\net9.0-windows\Seminaru2.AssemblyInfoInputs.cache
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\GeoComputaionala\Seminar2\Seminaru2\Seminaru2\obj\Debug\net9.0-windows\Seminaru2.AssemblyInfo.cs
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\GeoComputaionala\Seminar2\Seminaru2\Seminaru2\obj\Debug\net9.0-windows\Seminaru2.csproj.CoreCompileInputs.cache
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\GeoComputaionala\Seminar2\Seminaru2\Seminaru2\obj\Debug\net9.0-windows\Seminaru2.sourcelink.json
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\GeoComputaionala\Seminar2\Seminaru2\Seminaru2\bin\Debug\net9.0-windows\Seminaru2.exe
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\GeoComputaionala\Seminar2\Seminaru2\Seminaru2\bin\Debug\net9.0-windows\Seminaru2.deps.json
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\GeoComputaionala\Seminar2\Seminaru2\Seminaru2\bin\Debug\net9.0-windows\Seminaru2.runtimeconfig.json
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\GeoComputaionala\Seminar2\Seminaru2\Seminaru2\bin\Debug\net9.0-windows\Seminaru2.dll
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\GeoComputaionala\Seminar2\Seminaru2\Seminaru2\bin\Debug\net9.0-windows\Seminaru2.pdb
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\GeoComputaionala\Seminar2\Seminaru2\Seminaru2\obj\Debug\net9.0-windows\Seminaru2.dll
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\GeoComputaionala\Seminar2\Seminaru2\Seminaru2\obj\Debug\net9.0-windows\refint\Seminaru2.dll
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\GeoComputaionala\Seminar2\Seminaru2\Seminaru2\obj\Debug\net9.0-windows\Seminaru2.pdb
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\GeoComputaionala\Seminar2\Seminaru2\Seminaru2\obj\Debug\net9.0-windows\Seminaru2.genruntimeconfig.cache
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\GeoComputaionala\Seminar2\Seminaru2\Seminaru2\obj\Debug\net9.0-windows\ref\Seminaru2.dll
