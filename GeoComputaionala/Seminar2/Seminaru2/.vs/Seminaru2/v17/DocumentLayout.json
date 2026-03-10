@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{217B2F6F-BA9E-46BE-86BA-F7204D8ABBD9}|Seminaru2\\Seminaru2.csproj|solutionrelative:seminaru2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{217B2F6F-BA9E-46BE-86BA-F7204D8ABBD9}|Seminaru2\\Seminaru2.csproj|c:\\users\\tripg\\documents\\projects\\coding\\uni\\uni\\geocomputaionala\\seminar2\\seminaru2\\seminaru2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{217B2F6F-BA9E-46BE-86BA-F7204D8ABBD9}|Seminaru2\\Seminaru2.csproj|C:\\Users\\tripg\\Documents\\Projects\\Coding\\Uni\\Uni\\GeoComputaionala\\Seminar2\\Seminaru2\\seminaru2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{217B2F6F-BA9E-46BE-86BA-F7204D8ABBD9}|Seminaru2\\Seminaru2.csproj|solutionrelative:seminaru2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -34,9 +34,9 @@
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\tripg\\Documents\\Projects\\Coding\\Uni\\Uni\\GeoComputaionala\\Seminar2\\Seminaru2\\Seminaru2\\Form1.cs",
               "RelativeDocumentMoniker": "Seminaru2\\Form1.cs",
-              "ToolTip": "C:\\Users\\tripg\\Documents\\Projects\\Coding\\Uni\\Uni\\GeoComputaionala\\Seminar2\\Seminaru2\\Seminaru2\\Form1.cs*",
-              "RelativeToolTip": "Seminaru2\\Form1.cs*",
-              "ViewState": "AgIAADgAAAAAAAAAAAAUwEkAAAATAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\tripg\\Documents\\Projects\\Coding\\Uni\\Uni\\GeoComputaionala\\Seminar2\\Seminaru2\\Seminaru2\\Form1.cs",
+              "RelativeToolTip": "Seminaru2\\Form1.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-09T07:00:18.136Z",
               "EditorCaption": ""
@@ -47,11 +47,10 @@
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\tripg\\Documents\\Projects\\Coding\\Uni\\Uni\\GeoComputaionala\\Seminar2\\Seminaru2\\Seminaru2\\Form1.cs",
               "RelativeDocumentMoniker": "Seminaru2\\Form1.cs",
-              "ToolTip": "C:\\Users\\tripg\\Documents\\Projects\\Coding\\Uni\\Uni\\GeoComputaionala\\Seminar2\\Seminaru2\\Seminaru2\\Form1.cs [Design]*",
-              "RelativeToolTip": "Seminaru2\\Form1.cs [Design]*",
+              "ToolTip": "C:\\Users\\tripg\\Documents\\Projects\\Coding\\Uni\\Uni\\GeoComputaionala\\Seminar2\\Seminaru2\\Seminaru2\\Form1.cs [Design]",
+              "RelativeToolTip": "Seminaru2\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T07:00:03.291Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-03-09T07:00:03.291Z"
             }
           ]
         }
