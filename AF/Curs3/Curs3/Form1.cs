@@ -88,7 +88,15 @@ namespace Curs3
 
 
 
-
+        bool[] v = new bool[1000];
+        int n = int.Parse(Console.ReadLine());
+        string buffer;
+        TextReader load = new StreamReader(@../../)
+        while( (buffer = load.ReadLine())!= null)
+            {
+                string[] local = buffer.Split(' ');
+                foreach(string s in local) v[int.Parse(s)] = true;
+            }
 
 
 
