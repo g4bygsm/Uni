@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{7236A672-770B-471D-9BAD-489A36DE4162}|Curs3\\Curs3.csproj|solutionrelative:curs3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7236A672-770B-471D-9BAD-489A36DE4162}|Curs3\\Curs3.csproj|C:\\Users\\tripg\\Documents\\Projects\\Coding\\Uni\\Uni\\AF\\Curs3\\curs3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{7236A672-770B-471D-9BAD-489A36DE4162}|Curs3\\Curs3.csproj|c:\\users\\tripg\\documents\\projects\\coding\\uni\\uni\\af\\curs3\\curs3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7236A672-770B-471D-9BAD-489A36DE4162}|Curs3\\Curs3.csproj|solutionrelative:curs3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "Curs3\\Form1.cs",
               "ToolTip": "C:\\Users\\tripg\\Documents\\Projects\\Coding\\Uni\\Uni\\AF\\Curs3\\Curs3\\Form1.cs",
               "RelativeToolTip": "Curs3\\Form1.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAkwGMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAkwGMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-10T10:21:35.768Z",
               "EditorCaption": ""
@@ -42,7 +42,8 @@
               "ToolTip": "C:\\Users\\tripg\\Documents\\Projects\\Coding\\Uni\\Uni\\AF\\Curs3\\Curs3\\Form1.cs [Design]",
               "RelativeToolTip": "Curs3\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T10:20:32.273Z"
+              "WhenOpened": "2026-03-10T10:20:32.273Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Bookmark",
