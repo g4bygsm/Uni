@@ -1,0 +1,15 @@
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\POO\Lab3\Laborator3\Laborator3\bin\Debug\net9.0\Laborator3.exe
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\POO\Lab3\Laborator3\Laborator3\bin\Debug\net9.0\Laborator3.deps.json
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\POO\Lab3\Laborator3\Laborator3\bin\Debug\net9.0\Laborator3.runtimeconfig.json
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\POO\Lab3\Laborator3\Laborator3\bin\Debug\net9.0\Laborator3.dll
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\POO\Lab3\Laborator3\Laborator3\bin\Debug\net9.0\Laborator3.pdb
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\POO\Lab3\Laborator3\Laborator3\obj\Debug\net9.0\Laborator3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\POO\Lab3\Laborator3\Laborator3\obj\Debug\net9.0\Laborator3.AssemblyInfoInputs.cache
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\POO\Lab3\Laborator3\Laborator3\obj\Debug\net9.0\Laborator3.AssemblyInfo.cs
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\POO\Lab3\Laborator3\Laborator3\obj\Debug\net9.0\Laborator3.csproj.CoreCompileInputs.cache
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\POO\Lab3\Laborator3\Laborator3\obj\Debug\net9.0\Laborator3.sourcelink.json
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\POO\Lab3\Laborator3\Laborator3\obj\Debug\net9.0\Laborator3.dll
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\POO\Lab3\Laborator3\Laborator3\obj\Debug\net9.0\refint\Laborator3.dll
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\POO\Lab3\Laborator3\Laborator3\obj\Debug\net9.0\Laborator3.pdb
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\POO\Lab3\Laborator3\Laborator3\obj\Debug\net9.0\Laborator3.genruntimeconfig.cache
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\POO\Lab3\Laborator3\Laborator3\obj\Debug\net9.0\ref\Laborator3.dll
