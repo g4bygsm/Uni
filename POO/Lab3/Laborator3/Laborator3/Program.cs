@@ -63,6 +63,21 @@ namespace proj
         {
             return x + y;
         }
+
+        public double dif()
+        {
+            return x - y;
+        }
+
+        public double prod()
+        { 
+            return x * y; 
+        }
+        
+        public double imp()
+        {
+            return x / y;
+        }
     }
 
     internal class Program
