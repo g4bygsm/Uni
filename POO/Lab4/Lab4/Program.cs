@@ -125,6 +125,8 @@
 // ore/ minute sau cu 3 parametri, sau cu 4 sau cu string
 
 
+using System.Text;
+
 namespace Timpi
 {
     class Time
@@ -147,7 +149,7 @@ namespace Timpi
 
             if (x.Length != 4)
             {
-                Console.WriteLine("Timp incorecta!");
+                Console.WriteLine("Timp incomplet!");
             }
             else
             {
@@ -157,10 +159,31 @@ namespace Timpi
                 this.sutime = Convert.ToInt32(x[3]);
             }
         }
-
-        public static bool operator +(Time t1, Time t2)
+        public override string ToString()
         {
+            StringBuilder s = new StringBuilder();
+            s.AppendFormat("{0}:{1}:{2}:{3}", ora, minut, secunda, sutime);
+            return s.ToString();
+        }
+        public static Time operator +(Time t1, Time t2)
+        {
+            Time t = new Time(0, 0);
+            int k;
+            t.sutime = (t1.sutime + t2.sutime) % 100 ;
+            k= (t1.sutime + t2.sutime) / 100 ;
+            t.secunda = (t1.secunda + t2.secunda + k) % 60 ;
+            k = (t1.secunda + t2.secunda + k) / 60 ;
+            t.minut = (t1.minut + t2.minut + k) % 60 ;
+            k = (t1.minut + t2.minut + k) / 60;
+            t.ora = t1.ora + t2.ora + k;
+            return t;
+        }
 
+        static void Main()
+        {
+            Time t1 = new Time("12,03,34,09");
+            Time t2 = new Time(5, 12, 10, 57);
+            Console.WriteLine(t1 + t2);
         }
 
 
