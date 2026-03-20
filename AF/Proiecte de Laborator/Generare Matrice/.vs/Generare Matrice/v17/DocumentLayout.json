@@ -1,0 +1,78 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tripg\\Documents\\Projects\\Coding\\Uni\\Uni\\AF\\Proiecte de Laborator\\Generare Matrice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE171B9-5F35-47DC-9097-82A80725907D}|Generare Matrice\\Generare Matrice.csproj|c:\\users\\tripg\\documents\\projects\\coding\\uni\\uni\\af\\proiecte de laborator\\generare matrice\\generare matrice\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE171B9-5F35-47DC-9097-82A80725907D}|Generare Matrice\\Generare Matrice.csproj|solutionrelative:generare matrice\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE171B9-5F35-47DC-9097-82A80725907D}|Generare Matrice\\Generare Matrice.csproj|c:\\users\\tripg\\documents\\projects\\coding\\uni\\uni\\af\\proiecte de laborator\\generare matrice\\generare matrice\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7BE171B9-5F35-47DC-9097-82A80725907D}|Generare Matrice\\Generare Matrice.csproj|solutionrelative:generare matrice\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE171B9-5F35-47DC-9097-82A80725907D}|Generare Matrice\\Generare Matrice.csproj|c:\\users\\tripg\\documents\\projects\\coding\\uni\\uni\\af\\proiecte de laborator\\generare matrice\\generare matrice\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE171B9-5F35-47DC-9097-82A80725907D}|Generare Matrice\\Generare Matrice.csproj|solutionrelative:generare matrice\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\tripg\\Documents\\Projects\\Coding\\Uni\\Uni\\AF\\Proiecte de Laborator\\Generare Matrice\\Generare Matrice\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Generare Matrice\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\tripg\\Documents\\Projects\\Coding\\Uni\\Uni\\AF\\Proiecte de Laborator\\Generare Matrice\\Generare Matrice\\Form1.Designer.cs",
+              "RelativeToolTip": "Generare Matrice\\Form1.Designer.cs",
+              "ViewState": "AgIAAMYAAAAAAAAAAAAAAN4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T18:39:43.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\tripg\\Documents\\Projects\\Coding\\Uni\\Uni\\AF\\Proiecte de Laborator\\Generare Matrice\\Generare Matrice\\Form1.cs",
+              "RelativeDocumentMoniker": "Generare Matrice\\Form1.cs",
+              "ToolTip": "C:\\Users\\tripg\\Documents\\Projects\\Coding\\Uni\\Uni\\AF\\Proiecte de Laborator\\Generare Matrice\\Generare Matrice\\Form1.cs",
+              "RelativeToolTip": "Generare Matrice\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T18:38:38.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tripg\\Documents\\Projects\\Coding\\Uni\\Uni\\AF\\Proiecte de Laborator\\Generare Matrice\\Generare Matrice\\Form1.cs",
+              "RelativeDocumentMoniker": "Generare Matrice\\Form1.cs",
+              "ToolTip": "C:\\Users\\tripg\\Documents\\Projects\\Coding\\Uni\\Uni\\AF\\Proiecte de Laborator\\Generare Matrice\\Generare Matrice\\Form1.cs [Design]",
+              "RelativeToolTip": "Generare Matrice\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T18:38:06.832Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

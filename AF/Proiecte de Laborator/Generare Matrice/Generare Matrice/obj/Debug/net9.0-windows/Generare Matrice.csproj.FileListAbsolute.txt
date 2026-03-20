@@ -1,0 +1,7 @@
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Generare Matrice\Generare Matrice\obj\Debug\net9.0-windows\Generare_Matrice.Form1.resources
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Generare Matrice\Generare Matrice\obj\Debug\net9.0-windows\Generare Matrice.csproj.GenerateResource.cache
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Generare Matrice\Generare Matrice\obj\Debug\net9.0-windows\Generare Matrice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Generare Matrice\Generare Matrice\obj\Debug\net9.0-windows\Generare Matrice.AssemblyInfoInputs.cache
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Generare Matrice\Generare Matrice\obj\Debug\net9.0-windows\Generare Matrice.AssemblyInfo.cs
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Generare Matrice\Generare Matrice\obj\Debug\net9.0-windows\Generare Matrice.csproj.CoreCompileInputs.cache
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Generare Matrice\Generare Matrice\obj\Debug\net9.0-windows\Generare Matrice.sourcelink.json
