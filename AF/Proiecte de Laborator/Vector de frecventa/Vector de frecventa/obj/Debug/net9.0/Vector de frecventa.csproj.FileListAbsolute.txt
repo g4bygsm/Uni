@@ -1,0 +1,15 @@
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Vector de frecventa\Vector de frecventa\bin\Debug\net9.0\Vector de frecventa.exe
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Vector de frecventa\Vector de frecventa\bin\Debug\net9.0\Vector de frecventa.deps.json
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Vector de frecventa\Vector de frecventa\bin\Debug\net9.0\Vector de frecventa.runtimeconfig.json
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Vector de frecventa\Vector de frecventa\bin\Debug\net9.0\Vector de frecventa.dll
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Vector de frecventa\Vector de frecventa\bin\Debug\net9.0\Vector de frecventa.pdb
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Vector de frecventa\Vector de frecventa\obj\Debug\net9.0\Vector de frecventa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Vector de frecventa\Vector de frecventa\obj\Debug\net9.0\Vector de frecventa.AssemblyInfoInputs.cache
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Vector de frecventa\Vector de frecventa\obj\Debug\net9.0\Vector de frecventa.AssemblyInfo.cs
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Vector de frecventa\Vector de frecventa\obj\Debug\net9.0\Vector de frecventa.csproj.CoreCompileInputs.cache
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Vector de frecventa\Vector de frecventa\obj\Debug\net9.0\Vector de frecventa.sourcelink.json
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Vector de frecventa\Vector de frecventa\obj\Debug\net9.0\Vector de frecventa.dll
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Vector de frecventa\Vector de frecventa\obj\Debug\net9.0\refint\Vector de frecventa.dll
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Vector de frecventa\Vector de frecventa\obj\Debug\net9.0\Vector de frecventa.pdb
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Vector de frecventa\Vector de frecventa\obj\Debug\net9.0\Vector de frecventa.genruntimeconfig.cache
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Vector de frecventa\Vector de frecventa\obj\Debug\net9.0\ref\Vector de frecventa.dll
