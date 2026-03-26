@@ -1,6 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\AF",
+    "\\AF\\Proiecte de Laborator",
+    "\\AF\\Proiecte de Laborator\\4.ParcurgereMatrici",
+    "\\AF\\Proiecte de Laborator\\4.ParcurgereMatrici\\ParcurgereMatrici",
+    "\\GeoComputaionala"
   ],
+  "SelectedNode": "\\AF\\Proiecte de Laborator\\4.ParcurgereMatrici\\ParcurgereMatrici\\Form1.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -165,6 +165,38 @@ namespace Timpi
             s.AppendFormat("{0}:{1}:{2}:{3}", ora, minut, secunda, sutime);
             return s.ToString();
         }
+
+        public static Time operator -(Time t1, Time t2)
+        {
+            Time t = new Time(0, 0);
+            int imprumut = 0;
+            int tempSutime = t1.sutime - t2.sutime;
+            if (tempSutime < 0)
+            {
+                tempSutime += 100;
+                imprumut = 1;
+            }
+            t.sutime = tempSutime;
+            int tempSecunda = t1.secunda - t2.secunda - imprumut;
+            imprumut = 0;
+            if (tempSecunda < 0)
+            {
+                tempSecunda += 60;
+                imprumut = 1;
+            }
+            t.secunda = tempSecunda;
+            int tempMinut = t1.minut - t2.minut - imprumut;
+            imprumut = 0;
+            if (tempMinut < 0)
+            {
+                tempMinut += 60;
+                imprumut = 1;
+            }
+            t.minut = tempMinut;
+            t.ora = t1.ora - t2.ora - imprumut;
+            return t;
+        }
+
         public static Time operator +(Time t1, Time t2)
         {
             Time t = new Time(0, 0);

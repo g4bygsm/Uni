@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tripg\\Documents\\Projects\\Coding\\Uni\\Uni\\POO\\Lab5\\Lab5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B7325B0F-82C5-4936-B328-9322E94EB992}|Lab5\\Lab5.csproj|c:\\users\\tripg\\documents\\projects\\coding\\uni\\uni\\poo\\lab5\\lab5\\lab5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7325B0F-82C5-4936-B328-9322E94EB992}|Lab5\\Lab5.csproj|solutionrelative:lab5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tripg\\Documents\\Projects\\Coding\\Uni\\Uni\\POO\\Lab5\\Lab5\\Lab5\\Program.cs",
+              "RelativeDocumentMoniker": "Lab5\\Program.cs",
+              "ToolTip": "C:\\Users\\tripg\\Documents\\Projects\\Coding\\Uni\\Uni\\POO\\Lab5\\Lab5\\Lab5\\Program.cs",
+              "RelativeToolTip": "Lab5\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T09:30:42.338Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

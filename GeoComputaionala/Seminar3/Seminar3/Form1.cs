@@ -19,7 +19,7 @@ namespace Seminar3
     //        Random rnd = new Random();
     //        for (int i = 0; i < numarPuncte; i++)
     //        {
-                
+
     //            float x = rnd.Next(50, this.ClientSize.Width - 50);
     //            float y = rnd.Next(50, this.ClientSize.Height - 50);
     //            puncte[i] = new PointF(x, y);
@@ -59,12 +59,12 @@ namespace Seminar3
     //                {
     //                    if (Intersection(puncte[i], puncte[i + 1], puncte[j], puncte[j + 1]))
     //                    {
-                           
+
     //                        PointF temp = puncte[i + 1];
     //                        puncte[i + 1] = puncte[j];
     //                        puncte[j] = temp;
 
-    //                        modify = true; 
+    //                        modify = true;
     //                    }
     //                }
     //            }
@@ -84,7 +84,7 @@ namespace Seminar3
     //                g.FillEllipse(pensulaPuncte, p.X - raza, p.Y - raza, raza * 2, raza * 2);
     //        }
 
-            
+
     //        Pen stilouLinii = new Pen(Color.Blue, 2);
     //        for (int i = 0; i < puncte.Length - 1; i += 2)
     //        {
@@ -92,16 +92,22 @@ namespace Seminar3
     //                g.DrawLine(stilouLinii, puncte[i], puncte[i + 1]);
     //        }
     //    }
-    //   private void Form1_Load(object sender, EventArgs e)
+    //    private void Form1_Load(object sender, EventArgs e)
     //    {
 
     //    }
     //}
 
+
+
+
+
+
+
     public partial class Form1 : Form
     {
 
-        
+
 
         public List<Segment> segmente;
         public List<PointF> puncteIntersectie;
@@ -147,9 +153,10 @@ namespace Seminar3
             foreach (var seg in segmente)
             {
                 double xStart = seg.Start.X;
-                while (agendaLaserului.ContainsKey(xStart)) {
+                while (agendaLaserului.ContainsKey(xStart))
+                {
                     xStart += 0.0001;
-                        }
+                }
                 agendaLaserului.Add(xStart, new Event { Seg = seg, IsStart = true });
                 double xEnd = seg.End.X;
                 while (agendaLaserului.ContainsKey(xEnd)) xEnd += 0.0001;
@@ -232,9 +239,6 @@ namespace Seminar3
                     g.FillEllipse(pensulaIntersectii, p.X - raza, p.Y - raza, raza * 2, raza * 2);
             }
         }
-
     }
-    
-
-
 }
+   
