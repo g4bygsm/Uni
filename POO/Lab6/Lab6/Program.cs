@@ -45,7 +45,7 @@ namespace Lab6
                 d = 0.0;
 
                 // dezvoltare dupa ultima linie
-                6           for (i = 0; i < n; i++)
+                 for(i = 0; i < n; i++)
                 {
                     // semnul interschimbarii
                     if (((n - 1 - j) % 2 == 1) || (j == n - 1))
@@ -53,7 +53,7 @@ namespace Lab6
                     else
                         e = -a[n - 1, j];
                     // interschimbarea coloanei curente cu ultima linie
-                    for (i = 0; i < n - 1; i++)
+                    for (j = 0; i < n - 1; i++)
                     {
                         aux = a[i, j];
                         a[i, j] = a[i, n - 1];
@@ -75,8 +75,8 @@ namespace Lab6
                 return d;
             }
         }
-    }
-    public Matrice inversa()
+    
+    public int Matriceinversa()
         {
             if (this.n == this.m)
             {
@@ -91,7 +91,7 @@ namespace Lab6
                             temp.mat[i, j] = mat[i, j];
                     double aux;
                     int semn;
-                    matricea adjuncta
+                    // matricea adjuncta
                         for (int i = 0; i < n; i++)
                         for (int j = 0; j < n; j++)
                         {
@@ -104,15 +104,18 @@ namespace Lab6
                 }
             }
         }
-    class Program
-    {
-        static void Main()
+        class Program
         {
-            int n1 = 2, m1 = 2, n2 = 2, m2 = 2;
-            Matrice a = new Matrice(n1, m1);
-            Matrice b = new Matrice(n2, m2);
-            Console.WriteLine("Matricea A\n{0}", a);
-            Console.WriteLine("Matricea B\n{0}", b);
+            static void Main()
+            {
+                int n1 = 2, m1 = 2, n2 = 2, m2 = 2;
+                Matrice a = new Matrice(n1, m1);
+                Matrice b = new Matrice(n2, m2);
+                Console.WriteLine("Matricea A\n{0}", a);
+                Console.WriteLine("Matricea B\n{0}", b);
+            }
         }
-    }
-}
+
+
+
+        // 
