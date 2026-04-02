@@ -1,0 +1,15 @@
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\POO\Lab6\Lab6\obj\Debug\net9.0\Lab6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\POO\Lab6\Lab6\obj\Debug\net9.0\Lab6.AssemblyInfoInputs.cache
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\POO\Lab6\Lab6\obj\Debug\net9.0\Lab6.AssemblyInfo.cs
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\POO\Lab6\Lab6\obj\Debug\net9.0\Lab6.csproj.CoreCompileInputs.cache
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\POO\Lab6\Lab6\obj\Debug\net9.0\Lab6.sourcelink.json
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\POO\Lab6\Lab6\bin\Debug\net9.0\Lab6.exe
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\POO\Lab6\Lab6\bin\Debug\net9.0\Lab6.deps.json
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\POO\Lab6\Lab6\bin\Debug\net9.0\Lab6.runtimeconfig.json
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\POO\Lab6\Lab6\bin\Debug\net9.0\Lab6.dll
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\POO\Lab6\Lab6\bin\Debug\net9.0\Lab6.pdb
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\POO\Lab6\Lab6\obj\Debug\net9.0\Lab6.dll
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\POO\Lab6\Lab6\obj\Debug\net9.0\refint\Lab6.dll
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\POO\Lab6\Lab6\obj\Debug\net9.0\Lab6.pdb
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\POO\Lab6\Lab6\obj\Debug\net9.0\Lab6.genruntimeconfig.cache
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\POO\Lab6\Lab6\obj\Debug\net9.0\ref\Lab6.dll

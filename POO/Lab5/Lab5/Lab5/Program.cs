@@ -119,6 +119,7 @@
 
 
 
+using System;
 using System.Text;
 
 namespace Lab5
@@ -126,17 +127,10 @@ namespace Lab5
     public class Rational
     {
         private int numarator, numitor;
-        public Rational(int numarator, int numitor) 
+
+        public Rational(int numarator, int numitor)
         {
-            if (numitor < 0)
-            {
-                this.numarator = -numarator;
-            }
-            else
-            {
-                this.numarator = numarator;
-            }
-            if(numitor == 0)
+            if (numitor == 0)
             {
                 this.numitor = 1;
             }
@@ -144,95 +138,90 @@ namespace Lab5
             {
                 this.numitor = Math.Abs(numitor);
             }
+
+            this.numarator = (numitor < 0) ? -numarator : numarator;
             this.ireductibil();
         }
+
         public void ireductibil()
         {
-            int k = cmmdc(numarator, numitor);
+            int k = cmmdc(Math.Abs(numarator), numitor);
             numarator /= k;
             numitor /= k;
         }
 
-
-     
         static int cmmdc(int a, int b)
         {
-            if(b == 0)
-            {
-                return a;
-            }
-            else 
-            {
-                return cmmdc(b, a % b);
-            }
+            if (b == 0) return a;
+            return cmmdc(b, a % b);
         }
-
 
         public override string ToString()
         {
-             StringBuilder s = new StringBuilder();
-            if (numitor == 1)
-                s.AppendFormat($"{numarator}");
-            else
-                if (numarator == 0)
-                s.AppendFormat("0");
-            else
-                s.AppendFormat($"{numarator}/{numitor}");
-            return s.ToString();
+            if (numarator == 0) return "0";
+            if (numitor == 1) return numarator.ToString();
+            return $"{numarator}/{numitor}";
         }
-        public static Rational operator +(Rational r1, Rational r2)
-        {
-            return new Rational(r1.numarator * r2.numitor + r2.numarator * r1.numitor, r1.numitor *r2.numitor);
-        }
-        public static Rational operator -(Rational r1, Rational r2)
-        {
-            return new Rational(r1.numarator * r2.numitor - r2.numarator * r1.numitor, r1.numitor * r2.numitor);
-        }
-        public static Rational operator *(Rational r1, Rational r2)
-        {
-            return new Rational(r1.numarator * r2.numarator , r1.numitor * r2.numitor);
-        }
-        public static Rational operator /(Rational r1, Rational r2)
-        {
-            Rational r = new Rational(r2.numitor, r2.numarator);
-            return r1 * r;
-        }
+
+        public static Rational operator +(Rational r1, Rational r2) =>
+            new Rational(r1.numarator * r2.numitor + r2.numarator * r1.numitor, r1.numitor * r2.numitor);
+
+        public static Rational operator -(Rational r1, Rational r2) =>
+            new Rational(r1.numarator * r2.numitor - r2.numarator * r1.numitor, r1.numitor * r2.numitor);
+
+        public static Rational operator *(Rational r1, Rational r2) =>
+            new Rational(r1.numarator * r2.numarator, r1.numitor * r2.numitor);
+
+        public static Rational operator /(Rational r1, Rational r2) =>
+            new Rational(r1.numarator * r2.numitor, r1.numitor * r2.numarator);
+
         public static Rational operator ^(Rational r1, int k)
         {
-
             if (k < 0)
-            {
                 return new Rational((int)Math.Pow(r1.numitor, -k), (int)Math.Pow(r1.numarator, -k));
-            }
-            return new Rational((int)Math.Pow(r1.numarator, k), (int)Math.Pow(r1.numitor,k));
+            return new Rational((int)Math.Pow(r1.numarator, k), (int)Math.Pow(r1.numitor, k));
         }
 
+        public static bool operator ==(Rational r1, Rational r2)
+        {
+            return r1.numarator == r2.numarator && r1.numitor == r2.numitor;
+        }
 
+        public static bool operator !=(Rational r1, Rational r2) => !(r1 == r2);
 
+        public static bool operator <(Rational r1, Rational r2)
+        {
+            return r1.numarator * r2.numitor < r2.numarator * r1.numitor;
+        }
+
+        public static bool operator >(Rational r1, Rational r2) => r2 < r1;
+
+        public static bool operator <=(Rational r1, Rational r2) => !(r1 > r2);
+
+        public static bool operator >=(Rational r1, Rational r2) => !(r1 < r2);
+
+       
+
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(numarator, numitor);
+        }
     }
-
-
 
     class Test
     {
         public static void Main()
         {
-           Rational r1 = new Rational(2, 4);
-           Rational r2 = new Rational(3, 2);
+            Rational r1 = new Rational(1, 2);
+            Rational r2 = new Rational(3, 4);
 
-            Console.WriteLine($" x = {r1}");
-            Console.WriteLine($" y = {r2}");
-
-            Console.WriteLine($" x + y = {r1 + r2}");
-            Console.WriteLine($" x - y = {r1 - r2}");
-            Console.WriteLine($" x * y = {r1 * r2}");
-            Console.WriteLine($" x / y = {r1 / r2}");
-            int k = -2;
-            Console.WriteLine($" x ^ {k} = {r1 ^ k}");
-
-
-
+            Console.WriteLine($"x = {r1}, y = {r2}");
+            Console.WriteLine($"x == y: {r1 == r2}");
+            Console.WriteLine($"x != y: {r1 != r2}");
+            Console.WriteLine($"x < y:  {r1 < r2}");
+            Console.WriteLine($"x > y:  {r1 > r2}");
+            Console.WriteLine($"x <= y: {r1 <= r2}");
+            Console.WriteLine($"x >= y: {r1 >= r2}");
         }
     }
 }
-
