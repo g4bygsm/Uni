@@ -1,0 +1,17 @@
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\GeoComputaionala\Seminar6\Seminar6\obj\Debug\net9.0-windows\Seminar6.Form1.resources
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\GeoComputaionala\Seminar6\Seminar6\obj\Debug\net9.0-windows\Seminar6.csproj.GenerateResource.cache
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\GeoComputaionala\Seminar6\Seminar6\obj\Debug\net9.0-windows\Seminar6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\GeoComputaionala\Seminar6\Seminar6\obj\Debug\net9.0-windows\Seminar6.AssemblyInfoInputs.cache
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\GeoComputaionala\Seminar6\Seminar6\obj\Debug\net9.0-windows\Seminar6.AssemblyInfo.cs
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\GeoComputaionala\Seminar6\Seminar6\obj\Debug\net9.0-windows\Seminar6.csproj.CoreCompileInputs.cache
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\GeoComputaionala\Seminar6\Seminar6\obj\Debug\net9.0-windows\Seminar6.sourcelink.json
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\GeoComputaionala\Seminar6\Seminar6\bin\Debug\net9.0-windows\Seminar6.exe
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\GeoComputaionala\Seminar6\Seminar6\bin\Debug\net9.0-windows\Seminar6.deps.json
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\GeoComputaionala\Seminar6\Seminar6\bin\Debug\net9.0-windows\Seminar6.runtimeconfig.json
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\GeoComputaionala\Seminar6\Seminar6\bin\Debug\net9.0-windows\Seminar6.dll
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\GeoComputaionala\Seminar6\Seminar6\bin\Debug\net9.0-windows\Seminar6.pdb
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\GeoComputaionala\Seminar6\Seminar6\obj\Debug\net9.0-windows\Seminar6.dll
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\GeoComputaionala\Seminar6\Seminar6\obj\Debug\net9.0-windows\refint\Seminar6.dll
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\GeoComputaionala\Seminar6\Seminar6\obj\Debug\net9.0-windows\Seminar6.pdb
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\GeoComputaionala\Seminar6\Seminar6\obj\Debug\net9.0-windows\Seminar6.genruntimeconfig.cache
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\GeoComputaionala\Seminar6\Seminar6\obj\Debug\net9.0-windows\ref\Seminar6.dll
