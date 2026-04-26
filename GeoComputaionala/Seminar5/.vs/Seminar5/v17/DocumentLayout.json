@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{583E69F6-BFCB-4B13-BC77-B3A0F3F3F024}|Seminar5\\Seminar5.csproj|solutionrelative:seminar5\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{583E69F6-BFCB-4B13-BC77-B3A0F3F3F024}|Seminar5\\Seminar5.csproj|c:\\users\\tripg\\documents\\projects\\coding\\uni\\uni\\geocomputaionala\\seminar5\\seminar5\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{583E69F6-BFCB-4B13-BC77-B3A0F3F3F024}|Seminar5\\Seminar5.csproj|C:\\Users\\tripg\\Documents\\Projects\\Coding\\Uni\\Uni\\GeoComputaionala\\Seminar5\\seminar5\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{583E69F6-BFCB-4B13-BC77-B3A0F3F3F024}|Seminar5\\Seminar5.csproj|solutionrelative:seminar5\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "Seminar5\\Form1.cs",
               "ToolTip": "C:\\Users\\tripg\\Documents\\Projects\\Coding\\Uni\\Uni\\GeoComputaionala\\Seminar5\\Seminar5\\Form1.cs",
               "RelativeToolTip": "Seminar5\\Form1.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAwGYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwB0AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-06T07:13:42.35Z",
               "EditorCaption": ""
@@ -42,8 +42,7 @@
               "ToolTip": "C:\\Users\\tripg\\Documents\\Projects\\Coding\\Uni\\Uni\\GeoComputaionala\\Seminar5\\Seminar5\\Form1.cs [Design]",
               "RelativeToolTip": "Seminar5\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T07:12:04.068Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-04-06T07:12:04.068Z"
             }
           ]
         }

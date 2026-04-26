@@ -14,7 +14,7 @@ namespace Seminar5
         public Form1()
         {
             InitializeComponent();
-            this.Text = "Algoritmul lui Jarvis (Gift Wrapping)";
+           
 
             puncte = new PointF[numarPuncte];
             invelitoareConvexa = new List<PointF>();

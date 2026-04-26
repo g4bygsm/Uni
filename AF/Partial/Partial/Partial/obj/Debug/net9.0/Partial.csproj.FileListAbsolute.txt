@@ -1,0 +1,15 @@
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Partial\Partial\Partial\obj\Debug\net9.0\Partial.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Partial\Partial\Partial\obj\Debug\net9.0\Partial.AssemblyInfoInputs.cache
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Partial\Partial\Partial\obj\Debug\net9.0\Partial.AssemblyInfo.cs
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Partial\Partial\Partial\obj\Debug\net9.0\Partial.csproj.CoreCompileInputs.cache
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Partial\Partial\Partial\obj\Debug\net9.0\Partial.sourcelink.json
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Partial\Partial\Partial\bin\Debug\net9.0\Partial.exe
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Partial\Partial\Partial\bin\Debug\net9.0\Partial.deps.json
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Partial\Partial\Partial\bin\Debug\net9.0\Partial.runtimeconfig.json
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Partial\Partial\Partial\bin\Debug\net9.0\Partial.dll
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Partial\Partial\Partial\bin\Debug\net9.0\Partial.pdb
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Partial\Partial\Partial\obj\Debug\net9.0\Partial.dll
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Partial\Partial\Partial\obj\Debug\net9.0\refint\Partial.dll
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Partial\Partial\Partial\obj\Debug\net9.0\Partial.pdb
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Partial\Partial\Partial\obj\Debug\net9.0\Partial.genruntimeconfig.cache
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Partial\Partial\Partial\obj\Debug\net9.0\ref\Partial.dll
