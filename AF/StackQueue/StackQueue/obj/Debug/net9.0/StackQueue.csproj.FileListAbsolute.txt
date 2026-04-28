@@ -1,0 +1,7 @@
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\StackQueue\StackQueue\obj\Debug\net9.0\StackQueue.Form1.resources
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\StackQueue\StackQueue\obj\Debug\net9.0\StackQueue.csproj.GenerateResource.cache
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\StackQueue\StackQueue\obj\Debug\net9.0\StackQueue.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\StackQueue\StackQueue\obj\Debug\net9.0\StackQueue.AssemblyInfoInputs.cache
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\StackQueue\StackQueue\obj\Debug\net9.0\StackQueue.AssemblyInfo.cs
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\StackQueue\StackQueue\obj\Debug\net9.0\StackQueue.csproj.CoreCompileInputs.cache
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\StackQueue\StackQueue\obj\Debug\net9.0\StackQueue.sourcelink.json
