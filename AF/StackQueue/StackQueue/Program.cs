@@ -54,39 +54,47 @@
 
 
 
-using System.Security;
+//using System.Security;
+
+//namespace StackQueue
+//{
+
+
+
+//    public class Stack
+//    {
+//        int[] v;
+
+
+
+//        public void Push(int x)
+//        {
+//            int[] t = new int[v.Length + 1];
+//            for (int i = 0; i < v.Length; i++)
+//            {
+//                t[i + 1] = v[i];
+//                t[0] = x;
+//                v = t;
+//            }
+//        }
+//        public int Pop()
+//        {
+//            int tor = v[0];
+//            int[] t = new int[v.Length-1];
+//            for(int i = 0;i < v.Length-1;i++)
+//            {
+//                t[i] = v[i + 1];
+//            }
+//            v = t;
+//            return tor;
+//        }
+//    }
+//}
+
+
+using System;
 
 namespace StackQueue
 {
 
-
-
-    public class Stack
-    {
-        int[] v;
-
-
-
-        public void Push(int x)
-        {
-            int[] t = new int[v.Length + 1];
-            for (int i = 0; i < v.Length; i++)
-            {
-                t[i + 1] = v[i];
-                t[0] = x;
-                v = t;
-            }
-        }
-        public int Pop()
-        {
-            int tor = v[0];
-            int[] t = new int[v.Length-1];
-            for(int i = 0;i < v.Length-1;i++)
-            {
-                t[i] = v[i + 1];
-            }
-            v = t;
-            return tor;
-        }
-    }
 }
