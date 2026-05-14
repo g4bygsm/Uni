@@ -58,25 +58,55 @@ namespace Lab10
         }
     }
 
-    public class Patrat : IForma2D
+    public class Patrat : Dreptunghi, IForma2D
     {
         public double latura;
         string s = "patrat";
-        public Patrat(double l)
+
+        public Patrat(double l) : base(l, l)
         {
             latura = l;
         }
-
-        public double Aria()
+        public override double Aria() 
         {
             return (latura * latura);
         }
 
-        public double LungFrontiera()
+        public override double LungFrontiera()
         {
             return (latura * 4);
         }
-        public string denumire
+
+        public override string denumire
+        {
+            get
+            {
+                return s;
+            }
+        }
+    }
+
+    public class Dreptunghi : IForma2D
+    {
+        public double lungime;
+        public double latime;
+        string s = "dreptunghi";
+        public Dreptunghi(double l, double L)
+        {
+            latime = l;
+            lungime = L; 
+        }
+
+        public virtual double Aria()
+        {
+            return (latime * lungime);
+        }
+
+        public virtual double LungFrontiera()
+        {
+            return (latime * 2 + lungime * 2);
+        }
+        public virtual string denumire
         {
             get
             {
@@ -123,6 +153,8 @@ namespace Lab10
         }
     }
 
+    
+
     class InterfDemo
     {
         static void DisplayInfo(IForma2D f)
@@ -140,7 +172,7 @@ namespace Lab10
             Console.WriteLine("Afiseaza informatii despre {0}:", c.denumire);
             DisplayInfo(c);
 
-            Patrat p = new Patrat(3);
+            Dreptunghi p = new Dreptunghi(2,4);
             Console.WriteLine("\nAfiseaza informatii despre {0}:",p.denumire);
             DisplayInfo(p);
 
