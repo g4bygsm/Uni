@@ -15,3 +15,11 @@
         return false;
     }
 }
+// Merge Sort (interclasare)
+// Quick Sort (sortare rapida) -- examen (?)
+
+int[] v1 = new int[10];
+int[] v2 = new int[10];
+int k1;
+int k2;
+
