@@ -1,0 +1,15 @@
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Factorial\Factorial\bin\Debug\net9.0\Factorial.exe
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Factorial\Factorial\bin\Debug\net9.0\Factorial.deps.json
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Factorial\Factorial\bin\Debug\net9.0\Factorial.runtimeconfig.json
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Factorial\Factorial\bin\Debug\net9.0\Factorial.dll
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Factorial\Factorial\bin\Debug\net9.0\Factorial.pdb
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Factorial\Factorial\obj\Debug\net9.0\Factorial.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Factorial\Factorial\obj\Debug\net9.0\Factorial.AssemblyInfoInputs.cache
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Factorial\Factorial\obj\Debug\net9.0\Factorial.AssemblyInfo.cs
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Factorial\Factorial\obj\Debug\net9.0\Factorial.csproj.CoreCompileInputs.cache
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Factorial\Factorial\obj\Debug\net9.0\Factorial.sourcelink.json
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Factorial\Factorial\obj\Debug\net9.0\Factorial.dll
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Factorial\Factorial\obj\Debug\net9.0\refint\Factorial.dll
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Factorial\Factorial\obj\Debug\net9.0\Factorial.pdb
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Factorial\Factorial\obj\Debug\net9.0\Factorial.genruntimeconfig.cache
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Factorial\Factorial\obj\Debug\net9.0\ref\Factorial.dll
