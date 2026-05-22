@@ -1,0 +1,15 @@
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Greedy\Greedy\obj\Debug\net9.0\Greedy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Greedy\Greedy\obj\Debug\net9.0\Greedy.AssemblyInfoInputs.cache
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Greedy\Greedy\obj\Debug\net9.0\Greedy.AssemblyInfo.cs
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Greedy\Greedy\obj\Debug\net9.0\Greedy.csproj.CoreCompileInputs.cache
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Greedy\Greedy\obj\Debug\net9.0\Greedy.sourcelink.json
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Greedy\Greedy\bin\Debug\net9.0\Greedy.exe
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Greedy\Greedy\bin\Debug\net9.0\Greedy.deps.json
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Greedy\Greedy\bin\Debug\net9.0\Greedy.runtimeconfig.json
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Greedy\Greedy\bin\Debug\net9.0\Greedy.dll
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Greedy\Greedy\bin\Debug\net9.0\Greedy.pdb
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Greedy\Greedy\obj\Debug\net9.0\Greedy.dll
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Greedy\Greedy\obj\Debug\net9.0\refint\Greedy.dll
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Greedy\Greedy\obj\Debug\net9.0\Greedy.pdb
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Greedy\Greedy\obj\Debug\net9.0\Greedy.genruntimeconfig.cache
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\Greedy\Greedy\obj\Debug\net9.0\ref\Greedy.dll

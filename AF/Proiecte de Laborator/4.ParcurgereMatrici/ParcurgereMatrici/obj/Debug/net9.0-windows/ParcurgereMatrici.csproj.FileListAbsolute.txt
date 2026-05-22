@@ -15,3 +15,20 @@ C:\Users\tripg\Desktop\new\remus\Algoritmi Fundamentali\4.ParcurgereMatrici\Parc
 C:\Users\tripg\Desktop\new\remus\Algoritmi Fundamentali\4.ParcurgereMatrici\ParcurgereMatrici\obj\Debug\net9.0-windows\ParcurgereMatrici.pdb
 C:\Users\tripg\Desktop\new\remus\Algoritmi Fundamentali\4.ParcurgereMatrici\ParcurgereMatrici\obj\Debug\net9.0-windows\ParcurgereMatrici.genruntimeconfig.cache
 C:\Users\tripg\Desktop\new\remus\Algoritmi Fundamentali\4.ParcurgereMatrici\ParcurgereMatrici\obj\Debug\net9.0-windows\ref\ParcurgereMatrici.dll
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\4.ParcurgereMatrici\ParcurgereMatrici\bin\Debug\net9.0-windows\ParcurgereMatrici.exe
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\4.ParcurgereMatrici\ParcurgereMatrici\bin\Debug\net9.0-windows\ParcurgereMatrici.deps.json
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\4.ParcurgereMatrici\ParcurgereMatrici\bin\Debug\net9.0-windows\ParcurgereMatrici.runtimeconfig.json
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\4.ParcurgereMatrici\ParcurgereMatrici\bin\Debug\net9.0-windows\ParcurgereMatrici.dll
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\4.ParcurgereMatrici\ParcurgereMatrici\bin\Debug\net9.0-windows\ParcurgereMatrici.pdb
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\4.ParcurgereMatrici\ParcurgereMatrici\obj\Debug\net9.0-windows\ParcurgereMatrici.Form1.resources
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\4.ParcurgereMatrici\ParcurgereMatrici\obj\Debug\net9.0-windows\ParcurgereMatrici.csproj.GenerateResource.cache
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\4.ParcurgereMatrici\ParcurgereMatrici\obj\Debug\net9.0-windows\ParcurgereMatrici.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\4.ParcurgereMatrici\ParcurgereMatrici\obj\Debug\net9.0-windows\ParcurgereMatrici.AssemblyInfoInputs.cache
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\4.ParcurgereMatrici\ParcurgereMatrici\obj\Debug\net9.0-windows\ParcurgereMatrici.AssemblyInfo.cs
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\4.ParcurgereMatrici\ParcurgereMatrici\obj\Debug\net9.0-windows\ParcurgereMatrici.csproj.CoreCompileInputs.cache
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\4.ParcurgereMatrici\ParcurgereMatrici\obj\Debug\net9.0-windows\ParcurgereMatrici.sourcelink.json
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\4.ParcurgereMatrici\ParcurgereMatrici\obj\Debug\net9.0-windows\ParcurgereMatrici.dll
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\4.ParcurgereMatrici\ParcurgereMatrici\obj\Debug\net9.0-windows\refint\ParcurgereMatrici.dll
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\4.ParcurgereMatrici\ParcurgereMatrici\obj\Debug\net9.0-windows\ParcurgereMatrici.pdb
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\4.ParcurgereMatrici\ParcurgereMatrici\obj\Debug\net9.0-windows\ParcurgereMatrici.genruntimeconfig.cache
+C:\Users\tripg\Documents\Projects\Coding\Uni\Uni\AF\Proiecte de Laborator\4.ParcurgereMatrici\ParcurgereMatrici\obj\Debug\net9.0-windows\ref\ParcurgereMatrici.dll

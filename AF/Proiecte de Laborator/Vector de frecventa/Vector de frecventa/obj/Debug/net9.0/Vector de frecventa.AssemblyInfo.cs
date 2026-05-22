@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Vector de frecventa")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc4285a80390d4c3b73647b10b7905557d0dfee9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+806f6905f1c050e6d0eb53e1858fc8c7c148c737")]
 [assembly: System.Reflection.AssemblyProductAttribute("Vector de frecventa")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Vector de frecventa")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
