@@ -1,4 +1,8 @@
-﻿namespace ParcurgereMatrici
+﻿using System;
+using System.Drawing;
+using System.Windows.Forms;
+
+namespace ParcurgereMatrici
 {
     public partial class Form1 : Form
     {
@@ -17,6 +21,9 @@
         Point colorsStartLocation = new Point(10, 10);
         Button[] colorButtons;
         PictureBox[,] matrix = new PictureBox[0, 0];
+
+        // Am adaugat variabila asta global ca sa nu dea eroare la compilare pe constructorul tau
+        int[,] matrixRotation = new int[5, 10];
 
         public Form1()
         {
@@ -111,14 +118,6 @@
             int n = 11;
             int[,] matrix = new int[n, n];
 
-            /*for (int i = 0; i < n; i++)
-                for (int j = 0; j < n; j++)
-                {
-                    if (i == n / 2 || j == n / 2)
-                        matrix[i, j] = 1;
-                }
-            */
-            // Mai simplu: parcurgem doar cat este nevoie, si modificam indicii
             for (int i = 0; i < n; i++)
             {
                 matrix[i, n / 2] = 1;
@@ -134,14 +133,6 @@
             int n = 19;
             int[,] matrix = new int[n, n];
 
-            /*for (int i = 0; i < n; i++)
-                for (int j = 0; j < n; j++)
-                {
-                    if (i == j || i + j == n - 1)
-                        matrix[i, j] = 1;
-                }
-            */
-            // Mai simplu: parcurgem doar cat este nevoie, si modificam indicii
             for (int i = 0; i < n; i++)
             {
                 matrix[i, i] = 1;
@@ -174,32 +165,6 @@
             int n = 19;
             int[,] matrix = new int[n, n];
 
-            /*for (int i = 0; i < n; i++)
-                for (int j = 0; j < n; j++)
-                {
-                    // Nord: deasupra diagonalei principale si deasupra celei secundare
-                    if (i > j && i + j < n - 1)
-                    {
-                        matrix[i, j] = 1;
-                    }
-                    // Est: deasupra diagonalei principale si sub cea secundara
-                    else if (i > j && i + j > n - 1)
-                    {
-                        matrix[i, j] = 4;
-                    }
-                    // Sud: sub diagonala principala si sub cea secundara
-                    else if (i < j && i + j > n - 1)
-                    {
-                        matrix[i, j] = 6;
-                    }
-                    // Vest: sub diagonala principala si deasupra celei secundare
-                    else if (i < j && i + j < n - 1)
-                    {
-                        matrix[i, j] = 7;
-                    }
-                }
-            */
-            // Mai simplu / scurt: parcurgem doar cat este nevoie, si folosim indicii adecvati
             for (int i = 0; i < n / 2; i++)
                 for (int j = i + 1; j < n - i - 1; j++)
                 {
@@ -213,13 +178,11 @@
         }
 
         // Rotire 90 grade
-        int[,] matrixRotation = new int[5, 10];
         private void button8_Click(object sender, EventArgs e)
         {
             int n = 5;
             int[,] matrix = new int[2 * n, n];
 
-            // Generam o matrice
             for (int i = 0; i < n; i++)
                 for (int j = 0; j < n; j++)
                 {
@@ -227,13 +190,9 @@
                     matrix[n + i, j] = i + j + 1;
                 }
 
-            // Punem valorile rotite cu 90 de grade spre dreapta in matrixRotation
             for (int i = 0; i < 2 * n; i++)
                 for (int j = 0; j < n; j++)
                 {
-                    // coltul din stanga sus trebuie sa ajunga in coltul din dreapta sus,
-                    // cel din dreapta sus, in dreapta jos,
-                    // cel din dreapta jos, in stanga jos, etc.
                     matrixRotation[j, 2 * n - i - 1] = matrix[i, j];
                 }
 
@@ -247,9 +206,6 @@
             int[,] matrix = new int[n, n];
             int value = 1;
 
-            // Chenar: parcurgem prima linie, ultima coloana, ultima linie, prima coloana
-            // Spirala: mai adaugam un for cu k de la 0 pana la n/2, iar in codul interior,
-            // in loc de 0 scriem k, iar in loc de n-1 scriem n-k-1
             for (int k = 0; k < n / 2; k++)
             {
                 for (int i = k; i < n - k - 1; i++)
@@ -275,10 +231,6 @@
         // Serpuit
         private void button7_Click(object sender, EventArgs e)
         {
-            // La curs: se ia in considerare diagonala secundara, si se aduna i si j. Daca suma lor este para,
-            // atunci elementele de pe acea diagonala sunt parcurse de sus in jos, altfel, de jos in sus
-
-            // Noi folosim un bool care isi tot inverseaza valoarea, pentru a ne asigura ca parcurgem in directia buna
             int value = 0;
             int n = 13;
             int[,] matrix = new int[n, n];
@@ -348,9 +300,12 @@
 
         }
 
+        // =======================================================
+        // Star
+        // =======================================================
         private void button9_Click(object sender, EventArgs e)
         {
-            int n = 19; 
+            int n = 19;
             int[,] matrix = new int[n, n];
             int mid = n / 2;
 
@@ -358,29 +313,36 @@
             {
                 for (int j = 0; j < n; j++)
                 {
+                    // 1. Desenam "scheletul" steagului:
+                    // Diagonala principala, secundara, linia de mijloc si coloana de mijloc
+                    // primesc valoarea 0 (Culoarea de baza / de separare, ex: Alb)
                     if (i == j || i + j == n - 1 || i == mid || j == mid)
                     {
                         matrix[i, j] = 0;
                     }
-                    else if (i < mid && j < mid) 
+                    // 2. Impartim spatiul ramas in 8 "felii" de triunghi (Cadranul Stanga-Sus)
+                    else if (i < mid && j < mid)
                     {
-                        if (i < j) matrix[i, j] = 1; 
-                        else matrix[i, j] = 8;       
+                        if (i < j) matrix[i, j] = 1; // Triunghiul de sus
+                        else matrix[i, j] = 8;       // Triunghiul din stanga
                     }
-                    else if (i < mid && j > mid) 
+                    // Cadranul Dreapta-Sus
+                    else if (i < mid && j > mid)
                     {
-                        if (i + j < n - 1) matrix[i, j] = 2; 
-                        else matrix[i, j] = 3;               
+                        if (i + j < n - 1) matrix[i, j] = 2; // Triunghiul de sus 
+                        else matrix[i, j] = 3;               // Triunghiul din dreapta
                     }
-                    else if (i > mid && j > mid) 
+                    // Cadranul Dreapta-Jos
+                    else if (i > mid && j > mid)
                     {
-                        if (i < j) matrix[i, j] = 4; 
-                        else matrix[i, j] = 5;       
+                        if (i < j) matrix[i, j] = 4; // Triunghiul de jos
+                        else matrix[i, j] = 5;       // Triunghiul din dreapta
                     }
-                    else if (i > mid && j < mid) 
+                    // Cadranul Stanga-Jos
+                    else if (i > mid && j < mid)
                     {
-                        if (i + j > n - 1) matrix[i, j] = 6; 
-                        else matrix[i, j] = 7;              
+                        if (i + j > n - 1) matrix[i, j] = 6; // Triunghiul de jos
+                        else matrix[i, j] = 7;               // Triunghiul din stanga  
                     }
                 }
             }
@@ -388,30 +350,36 @@
             AddMatrixToTextBox(matrix, n, n);
         }
 
+        //UK Flag
         private void button10_Click_1(object sender, EventArgs e)
         {
             int n = 19;
             int[,] matrix = new int[n, n];
             int mid = n / 2;
 
+            // 1. Umplem toata matricea cu 7 (Culoarea de fundal, ex: Albastru)
             for (int i = 0; i < n; i++)
                 for (int j = 0; j < n; j++)
                     matrix[i, j] = 7;
 
+            // 2. Desenam marginile groase ale diagonalelor (Grosime 3 - folosind Math.Abs <= 1)
+            // Orice se afla langa diagonale primeste 0 (Culoarea de contur, ex: Alb)
             for (int i = 0; i < n; i++)
                 for (int j = 0; j < n; j++)
                     if (Math.Abs(i - j) <= 1 || Math.Abs(i + j - (n - 1)) <= 1)
                         matrix[i, j] = 0;
 
+            // 3. Pe mijlocul diagonalelor groase de mai sus, punem inapoi 1 (Culoarea stelei, ex: Rosu)
+            // Asta creeaza efectul de diagonala rosie inconjurata de contur alb
             for (int i = 0; i < n; i++)
             {
                 for (int j = 0; j < n; j++)
                 {
-                    if (matrix[i, j] == 0) 
+                    if (matrix[i, j] == 0)
                     {
                         if (i < mid && j < mid)
-                        {   
-                            if (i == j ) matrix[i, j] = 1;
+                        {
+                            if (i == j) matrix[i, j] = 1;
                         }
                         else if (i < mid && j > mid)
                         {
@@ -429,11 +397,18 @@
                 }
             }
 
+            // 4. Desenam crucea mare de pe mijloc (Linii si coloane). 
+            // Grosime imensa de 5 elemente (Math.Abs <= 2)
+            // Umplem cu 0 (Alb) ca sa spargem fundalul albastru in 4 colturi mici
+
+
             for (int i = 0; i < n; i++)
                 for (int j = 0; j < n; j++)
                     if (Math.Abs(i - mid) <= 2 || Math.Abs(j - mid) <= 2)
                         matrix[i, j] = 0;
 
+            // 5. Pe interiorul crucii albe de mai sus, redesenam o cruce mai subtire (grosime 3)
+            // cu valoarea 1 (Rosu). Asta completeaza forma stelei cu contururi perfecte!
             for (int i = 0; i < n; i++)
                 for (int j = 0; j < n; j++)
                     if (Math.Abs(i - mid) <= 1 || Math.Abs(j - mid) <= 1)
@@ -442,6 +417,5 @@
             AddMatrixToTextBox(matrix, n, n);
         }
 
-        
     }
 }

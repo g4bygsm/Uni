@@ -49,7 +49,7 @@ namespace Factorial
             private set { digits[index] = value; }
         }
 
-        // Operatorul de adunare (+) - REPARAT COMPLET
+        // Operatorul de adunare (+)
         public static BigNumber operator +(BigNumber a, BigNumber b)
         {
             BigNumber result = new BigNumber();
@@ -73,7 +73,7 @@ namespace Factorial
             return result;
         }
 
-        // Operatorul de inmultire (*) - REPARAT COMPLET
+        // Operatorul de inmultire (*)
         public static BigNumber operator *(BigNumber a, BigNumber b)
         {
             // Daca unul dintre numere este 0, rezultatul inmultirii este 0

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tripg\\Documents\\Projects\\Coding\\Uni\\Uni\\GeoComputaionala\\Seminar2\\Seminar2\\Seminar2.csproj",
+      "projectUniqueName": "C:\\Users\\tripg\\Documents\\Projects\\Coding\\Uni\\Uni\\GeoComputaionala\\Seminar1\\Seminar2\\Seminar2.csproj",
       "projectName": "Seminar2",
-      "projectPath": "C:\\Users\\tripg\\Documents\\Projects\\Coding\\Uni\\Uni\\GeoComputaionala\\Seminar2\\Seminar2\\Seminar2.csproj",
+      "projectPath": "C:\\Users\\tripg\\Documents\\Projects\\Coding\\Uni\\Uni\\GeoComputaionala\\Seminar1\\Seminar2\\Seminar2.csproj",
       "packagesPath": "C:\\Users\\tripg\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tripg\\Documents\\Projects\\Coding\\Uni\\Uni\\GeoComputaionala\\Seminar2\\Seminar2\\obj\\",
+      "outputPath": "C:\\Users\\tripg\\Documents\\Projects\\Coding\\Uni\\Uni\\GeoComputaionala\\Seminar1\\Seminar2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tripg\\AppData\\Roaming\\NuGet\\NuGet.Config",

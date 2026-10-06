@@ -11,6 +11,7 @@ using System;
 
 namespace Lab10
 {
+    // declarare interfata:
     public interface IForma
     {
         string denumire { get; }
@@ -32,15 +33,23 @@ namespace Lab10
         double Volum();
     }
 
+    // clasa Cerc mosteneste interfata IForma2D dar
+    // poate mosteni si alta clasa
     public class Cerc : IForma2D
     {
         public double raza;
         private const float PI = 3.14159f;
         string s = "cerc";
-        public Cerc(double r)
+
+        // constructor
+        public Cerc(double raza)
         {
-            raza = r;
+            this.raza = raza;
         }
+
+
+        //ex cerinta: sa se creeze o metoda 
+        //prin care sa se calculeze aria:
         public double Aria()
         {
             return (PI * raza * raza);
@@ -57,7 +66,12 @@ namespace Lab10
             }
         }
     }
+    //mostenire
 
+    // public class Copil : Familie
+    // clasa copil mosteneste clasa familie prin semnul :
+
+    // in ex asta clasa Patrat mosteneste clasa Dreptunghi
     public class Patrat : Dreptunghi, IForma2D
     {
         public double latura;
@@ -67,6 +81,7 @@ namespace Lab10
         {
             latura = l;
         }
+
         public override double Aria() 
         {
             return (latura * latura);
@@ -91,17 +106,25 @@ namespace Lab10
         public double lungime;
         public double latime;
         string s = "dreptunghi";
-        public Dreptunghi(double l, double L)
+        
+        public Dreptunghi(double lungime, double latime)
         {
-            latime = l;
-            lungime = L; 
+            this.lungime = lungime;
+            this.latime = latime;
         }
 
+        // daca scrie virtual, inseamna ca continutul metodei
+        // poate fi inlocuit cu continutul altei metode
+        // doar ca in loc de virtual scrie override(suprascriere)
         public virtual double Aria()
         {
             return (latime * lungime);
         }
 
+        public override double Aria()
+        {
+            return (latura * latura);
+        }
         public virtual double LungFrontiera()
         {
             return (latime * 2 + lungime * 2);
@@ -115,6 +138,7 @@ namespace Lab10
         }
     }
 
+    
     public class Cub : IForma3D
     {
         public double latura;
