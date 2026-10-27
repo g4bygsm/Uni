@@ -1,48 +1,8 @@
 ﻿using System;
 namespace Backtracking
 {
-    class Program
-    {
-        static char[] sol;
-        static int n;
-
-        static void par(int k, int d, int i)
-        {
-            if (k == n)
-            {
-                Console.WriteLine(new String(sol));
-                return;
-            }
-            if (d < n / 2)
-            {
-                sol[k] = '(';
-                par(k + 1, d + 1, i);
-            }
-            if (i < d)
-            {
-
-                sol[k] = ')';
-                par(k + 1, d, i + 1);
-            }
-        }
-
-        static void Main(string[] args)
-        {
-
-            Console.Write("n = ");
-            n = int.Parse(Console.ReadLine());
-            if (n % 2 == 0)
-            {
-                sol = new char[n];
-                par(0, 0, 0);
-            }
-            else
-            {
-                Console.WriteLine("!!! n este impar !!!");
-            }
-           
-        }
-    }
+   
+   
     //class Program
     //{
     //    static int n;
@@ -159,4 +119,75 @@ namespace Backtracking
     //            comb(0);
     //        }
     //    }
+
+
+    class ColorareHarta
+    {
+        static int n;
+        static int[,] a;
+        static int[] sol;
+        static int numarSolutii = 0;
+        static void Citire(int n)
+        {
+            a = new int[n + 1, n + 1];
+            sol = new int[n + 1];
+            Console.WriteLine("Introdu vecinii fiecarei tari:");
+            for (int i = 1; i <= n; i++)
+            {
+                Console.Write($"{i}: ");
+                string rand = Console.ReadLine();
+                string[] numere = rand.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+                foreach(string numar in numere)
+                {
+                    int vecin = int.Parse(numar);
+                    a[i, vecin] = 1;
+                    a[vecin, i] = 1;
+
+                }
+            }
+            Console.WriteLine("Harta inregistrata, start colorare");
+        }
+        static void Colorare(int k)
+        {
+            if (k > n)
+            {
+                numarSolutii++;
+                Console.WriteLine("--- Solutia numarul " + numarSolutii + " ---");
+                for (int i = 1; i <= n; i++)
+                {
+                    Console.WriteLine("Culoarea tarii " + i + " este: " + sol[i]);
+                }
+                Console.WriteLine();
+                return;
+            }
+            for (int i = 1; i <= 4; i++)
+            {
+                sol[k] = i;
+                bool valid = true;
+
+                for (int j = 1; j < k; j++)
+                {
+                    if (a[k, j] == 1 && sol[k] == sol[j])   
+                    {
+                        valid = false;
+                        break;
+                    }
+                }
+
+                if (valid)
+                {
+                    Colorare(k + 1);
+                }
+            }
+        }
+        static void Main(string[] args)
+        {
+            Console.Write("Introdu numarul de tari: ");
+            n = int.Parse(Console.ReadLine());
+            Citire(n);
+            Colorare(1);
+
+        }
+    }
+    
 }
