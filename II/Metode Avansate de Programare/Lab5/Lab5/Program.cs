@@ -12,14 +12,20 @@ namespace Lab5
             list.AddLast(20);
             list.AddLast(30);
             list.AddFirst(5);
+
+
             Console.WriteLine("Normal:");
-
             list.Print();
-            Console.WriteLine("Reverse:");
+            
+            list.AddBetween(10, 15);
 
+            Console.WriteLine("Normal:");
+            list.Print();
+
+            Console.WriteLine("Reverse:");
             list.PrintReverse();
 
-            Console.WriteLine("\nRemove element 5");
+            Console.WriteLine("\nRemove element 5:");
             list.Remove(5);
 
             Console.WriteLine("Normal:");
@@ -53,6 +59,36 @@ namespace Lab5
         {
             first = null;
             last = null;
+        }
+
+        public void AddBetween(int before, int data)
+        {
+            Element current = first;
+
+            while (current != null)
+            {
+                if (current.Data == before)
+                {
+                    Element newElement = new Element(data);
+
+                    newElement.Next = current.Next;
+                    newElement.Prev = current;
+
+                    if (current.Next != null)
+                    {
+                        current.Next.Prev = newElement;
+                    }
+                    else
+                    {
+                        last = newElement;
+                    }
+
+                    current.Next = newElement;
+
+                    return;
+                }
+                current = current.Next;
+            }
         }
 
         public void AddFirst(int data)
@@ -134,11 +170,11 @@ namespace Lab5
 
         public void PrintReverse()
         {
-            Element current = last; 
+            Element current = last;
             while (current != null)
             {
                 Console.Write(current.Data + " ");
-                current = current.Prev; 
+                current = current.Prev;
             }
             Console.WriteLine();
         }
