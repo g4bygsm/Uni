@@ -19,7 +19,7 @@ namespace Lab5
 
             list.PrintReverse();
 
-            Console.WriteLine("\nRemove 20");
+            Console.WriteLine("\nRemove element 5");
             list.Remove(5);
 
             Console.WriteLine("Normal:");
